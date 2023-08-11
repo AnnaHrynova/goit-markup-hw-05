@@ -772,6 +772,7 @@ ul {
 
 .subscribe-icon {
   margin-left: 16px;
+  fill: var(--cloud);
 }
 
 /*----------------------------MODAL----------------------------*/
