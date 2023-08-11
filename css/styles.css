@@ -708,6 +708,12 @@ ul {
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.32px;
+  margin-bottom: 16px;
+}
+
+.footer-form {
+  display: flex;
+  gap: 24px;
 }
 
 .subscribe-input {
@@ -717,29 +723,37 @@ ul {
   border: 1px solid var(--white);
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
   background-color: transparent;
-  margin-top: 16px;
   margin-right: 24px;
+  font-size: 12px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  padding-left: 16px;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+  color: #ffffff;
 }
 
 .subscribe-input::placeholder {
-  color: var(--white);
-  font-size: 12px;
+  color: #ffffff;
+  /* font-size: 12px;
   font-weight: 400;
   line-height: 2;
   letter-spacing: 0.48px;
-  padding-left: 16px;
+  padding-left: 16px; */
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
 .footer-button-subscribe {
-  color: var(--white);
+  color: #ffffff;
+  font-family: "Roboto", sans-serif;
   font-size: 16px;
   font-weight: 500;
   line-height: 1.5;
-  letter-spacing: 0.64px;
-  display: inline-flex;
+  letter-spacing: 0.04em;
+  min-width: 165px;
+  height: 40px;
+  display: flex;
   padding: 8px 24px;
   justify-content: center;
   align-items: center;
@@ -754,6 +768,10 @@ ul {
 .footer-button-subscribe:hover,
 .footer-button-subscribe:focus {
   background-color: var(--ocean);
+}
+
+.subscribe-icon {
+  margin-left: 16px;
 }
 
 /*----------------------------MODAL----------------------------*/
@@ -795,7 +813,7 @@ ul {
   font-size: 16px;
   font-weight: 500;
   line-height: 1.5;
-  letter-spacing: 0.32px;
+  letter-spacing: 0.02em;
   margin-bottom: 16px;
 }
 
