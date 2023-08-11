@@ -808,6 +808,10 @@ ul {
   padding: 72px 24px 24px 24px;
 }
 
+.modal-form-wrap {
+  margin-bottom: 8px;
+}
+
 .modal-title {
   color: var(--navyblue);
   text-align: center;
@@ -864,12 +868,13 @@ ul {
 
 .modal-label {
   display: block;
-  padding-bottom: 4px;
+  /* padding-bottom: 4px; */
   color: var(--lightslate);
   font-size: 12px;
   font-weight: 400;
-  line-height: 1.167;
   letter-spacing: 0.48px;
+  line-height: 1.17;
+  margin-bottom: 4px;
 }
 
 .modal-label-comment {
@@ -887,6 +892,12 @@ ul {
   margin-top: 4px;
 }
 
+.input-wrap-comment {
+  position: relative;
+  margin-bottom: 16px;
+  margin-top: 4px;
+}
+
 .modal-icon {
   fill: var(--navyblue);
   position: absolute;
@@ -894,6 +905,10 @@ ul {
   top: 50%;
   transform: translateY(-50%);
   transition: border-color 200ms ease;
+}
+
+.modal-input {
+  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .privacy-text {
