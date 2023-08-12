@@ -546,6 +546,10 @@ ul {
   max-width: 264px;
 }
 
+.subscribe-icon {
+  margin-left: 16px;
+}
+
 /*----------------------------PORTFOLIO----------------------------*/
 
 .portfolio {
