@@ -723,7 +723,7 @@ ul {
   border: 1px solid var(--white);
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
   background-color: transparent;
-  margin-right: 24px;
+  /* margin-right: 24px; */
   font-size: 12px;
   line-height: 1.5;
   letter-spacing: 0.04em;
@@ -757,7 +757,7 @@ ul {
   padding: 8px 24px;
   justify-content: center;
   align-items: center;
-  gap: 16px;
+  /* gap: 16px; */
   border-radius: 4px;
   background-color: var(--iris);
   border: none;
@@ -963,7 +963,7 @@ ul {
 
 .modal-submit-button {
   padding: 16px 32px;
-  margin: 24px 0;
+  margin: 24px 0 0 0;
   display: block;
   margin-left: auto;
   margin-right: auto;
